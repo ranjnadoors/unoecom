@@ -39,7 +39,11 @@
 }
 .home-bg{
     background-color: #1877C3;
-    height: 98vh;
+}
+.home-img{
+    position: relative;
+    /* top: 103%; */
+    top: 15%;
 }
 .home-bg h1{
     font-family: 'Josefin Sans SemiBold';
@@ -60,11 +64,12 @@
     color: white;
 }
 .input-group{
-    margin-right: 315px !important;
+    /*margin-right: 315px !important;
     padding: 0 117px !important;
+    padding-right: 188px !important;*/
 }
 .form-control{
-    margin-left: 198px;
+    margin-left: 184px;
 }
 .span{
     color: white;
@@ -85,7 +90,7 @@
     text-transform: uppercase;
 }
 .list{
-    margin-top: 290px;
+    margin-top: 240px;
 }
 .list hr{
     width: 64px;
@@ -153,7 +158,7 @@ font-family: 'Barlow Semi Condensed';
     font-size:45px ;
 }
 .bullet-text{
-    font-size: 24px;
+    font-size: 16px;
     color: #464646;
     text-transform: uppercase;
     font-weight: bold;
@@ -205,7 +210,7 @@ and (max-device-width : 640px) {
     }
     .home-bg{
         background-color: #1877C3;
-        height: 101vh;
+      
     }
     .list{
         margin-top: 35px;
@@ -219,6 +224,86 @@ and (max-device-width : 640px) {
     .col-moible{
         margin-top: 104px;
     }
+    .home-bg h1 {
+        font-family: 'Josefin Sans SemiBold';
+        color: white;
+        font-size: 29px;
+        font-weight: 600;
+    }
+    .home-bg h2 {
+        font-family: 'Barlow Semi Condensed';
+        color: white;
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .span{
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+        font-size: 16px;
+    }
+    .ask-us-btn{
+        background-color: white;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        border: white;
+        color: #1877C3;
+        text-transform: uppercase;
+    }
+    .market-text {
+        color: #606060;
+        font-size: 28px;
+        font-family: 'Barlow Semi Condensed';
+    }
+    .list .text {
+        color: #000000;
+        font-size: 28px;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    .enable-delivery {
+        background-image: url(../images/grey\ background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -107px;
+    }
+    .same-text {
+        font-size: 30px;
+        color: #606060;
+        font-family: "Barlow Semi Condensed";
+    }
+    .free-text {
+        color: #1976C2;
+        font-size: 35px;
+    }
+    .bullet-text {
+        font-size: 9px;
+        color: #464646;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .enable-delivery .text {
+        color: #000000;
+        font-size: 28px;
+        font-family: " 'Josefin Sans SemiBold'";
+    }
+    .dna-text-2 {
+        color: #FFFEFE;
+        font-size: 16px;
+        font-family: "Barlow Semi Condensed";
+    }
+    .dna-text {
+        font-size: 32px;
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    .footer-text {
+        font-size: 35px;
+        color: white;
+        margin-left: 0px;
+        font-family: 'Josefin Sans SemiBold';
+    }
 }
 @media only screen 
 and (min-device-width : 768px) 
@@ -228,13 +313,34 @@ and (max-device-width : 1024px) {
         padding: 0 0px !important;
     }
     .form-control{
-        margin-left: 0px;
+        margin-left: 75px;
     }
     .list{
         margin-top: 100px;
     }
     .home-bg{
         background-color: #1877C3;
-        height: 61vh;
+        
+    }
+    .span{
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+        font-size: 16px;
+    }
+    .enable-delivery {
+        background-image: url(../images/grey\ background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -129px;
+    }
+    .dna-text-2 {
+        color: #FFFEFE;
+        font-size: 20px;
+        font-family: "Barlow Semi Condensed";
+    }
+    .dna-text {
+        font-size: 37px;
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
     }
 }
