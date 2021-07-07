@@ -26,9 +26,9 @@
     text-align: left;
     list-style: none;
     background-color: #fff;
-    box-shadow: 0 0 5px 5px#4e4e4e;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     background-clip: padding-box;
-    border: 0px !important; 
+    border:1px solid rgba(0,0,0,.15)
 }
 .signup-btn{
     background-color: #1877C3;
@@ -196,11 +196,25 @@ font-family: 'Barlow Semi Condensed';
     font-size: 20px;
     font-family:  'Josefin Sans SemiBold';
 }
+.dropdown-menu-large{
+    width: 600px;
+}
+.dropdown-menu-large i{
+    color: #1669ae;
+}
+.dropdown-menu-large .nav-link{
+    font-size: 12px;
+    text-align: center;
+}
+
 /**************************************media queries***********************************/
 
   @media only screen  
 and (min-device-width: 320px)
 and (max-device-width : 640px) {
+    .dropdown-menu-large {
+        width: 273px;
+    }
     .input-group{
         margin-right: 0px !important;
         padding: 0 0px !important;
