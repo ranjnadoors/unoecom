@@ -183,18 +183,18 @@ font-family: 'Barlow Semi Condensed';
 }
 .footer ul{
     list-style: none;
-   
+   padding: 0;
 }
 .footer-text{
     font-size: 35px;
      color: white; 
-     margin-left: 41px;
-     font-family:  'Josefin Sans SemiBold';
+    
+    
 }
 .footer a{
     color: white !important;
     font-size: 20px;
-    font-family:  'Josefin Sans SemiBold';
+   
 }
 .dropdown-menu-large{
     width: 600px;
@@ -205,6 +205,21 @@ font-family: 'Barlow Semi Condensed';
 .dropdown-menu-large .nav-link{
     font-size: 12px;
     text-align: center;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    padding: 5px 12px;
+    border-radius: 26px;
+}
+.instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    padding: 6px 6px;
+    border-radius: 26px;
+}
+.twitter:hover{
+    background-color: #00acee;
+    padding: 7px 5px;
+    border-radius: 26px;
 }
 
 /**************************************media queries***********************************/
