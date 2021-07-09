@@ -1,0 +1,428 @@
+.nav-link{
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000 !important;
+    font-weight: 600;
+}
+.login-btn{
+    background-color: #1877C3;
+    border: #1877C3;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    /* min-width: 10rem; */
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    background-clip: padding-box;
+    border:1px solid rgba(0,0,0,.15)
+}
+.signup-btn{
+    background-color: #1877C3;
+    border: #1877C3;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.home-bg{
+    background-color: #1877C3;
+}
+.home-img{
+    position: relative;
+    /* top: 103%; */
+    top: 15%;
+}
+.home-bg h1{
+    font-family: 'Josefin Sans SemiBold';
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.home-bg h2{
+    font-family: 'Barlow Semi Condensed';
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+.home-bg .btn{
+    background-color: #72CC12;
+    font-size: 22px;
+    color: white;
+}
+.input-group{
+    /*margin-right: 315px !important;
+    padding: 0 117px !important;
+    padding-right: 188px !important;*/
+}
+.form-control{
+    margin-left: 184px;
+}
+.span{
+    color: white;
+    font-family: 'Josefin Sans SemiBold';
+    font-size: 30px;
+}
+.hr{
+    border: 1px solid white;
+    width: 115px;
+}
+.ask-us-btn{
+    background-color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: white;
+    color: #1877C3;
+    text-transform: uppercase;
+}
+.list{
+    margin-top: 240px;
+}
+.list hr{
+    width: 64px;
+    border: 2px solid #1877C3ed;
+   
+}
+.list .text{
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Josefin Sans SemiBold';
+}
+.market-text{
+color: #606060;
+font-size: 60px;
+font-family: 'Barlow Semi Condensed';
+}
+.cards{
+    background: white;
+    box-shadow: 0px 0px 5px 5px #e4e4e4;
+    border-radius: 11px;
+    width: 249px;
+   height: 330px;
+}
+.cards-img{
+    position: absolute;
+    /* margin-left: -87px; */
+    top: 20%;
+    left: 43%;
+    transform: translate(-26%, 35px);
+}
+.cards-bg{
+    background-image:url(../images/Layer\ 30\ copy\ 3@1X.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+}
+.card-text{
+    color: #464646;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.enable-delivery{
+    
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+.enable-delivery hr{
+    width: 64px;
+    border: 2px solid #1877C3ed;
+    margin-top: 141px;
+}
+.enable-delivery .text{
+    color: #000000;
+    font-size: 60px;
+    font-family: " 'Josefin Sans SemiBold'";
+   
+}
+.same-text{
+    font-size: 45px;
+    color: #606060;
+    font-family: "Barlow Semi Condensed";
+}
+.free-text{
+    color: #1976C2;
+    font-size:45px ;
+}
+.bullet-text{
+    font-size: 16px;
+    color: #464646;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slanted {
+    background-color: #1877C3;
+    height: 600px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
+    transform: rotate(180deg);
+}
+.dna-e-commerce{
+    background-image: url(../images/blue\ background.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: -203px;
+}
+.dna-text{
+    font-size: 60px;
+    color: white;
+    font-family:  'Josefin Sans SemiBold';
+}
+.dna-text-2{
+    color: #FFFEFE;
+    font-size: 32px;
+    font-family: "Barlow Semi Condensed";
+}
+.footer ul{
+    list-style: none;
+   padding: 0;
+}
+.footer-text{
+    font-size: 35px;
+     color: white; 
+    
+    
+}
+.footer a{
+    color: white !important;
+    font-size: 20px;
+   
+}
+.dropdown-menu-large{
+    width: 600px;
+}
+.dropdown-menu-large i{
+    color: #1669ae;
+}
+.dropdown-menu-large .nav-link{
+    font-size: 16px;
+    text-align: center;
+}
+.facebook{
+    padding: 5px 12px;
+   
+}
+.facebook:hover{
+    background-color: #3b5998;
+    padding: 5px 12px;
+    border-radius: 26px;
+}
+.instagram{
+    padding: 6px 6px;
+    
+}
+.instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    padding: 6px 6px;
+    border-radius: 26px;
+}
+.twitter{
+    padding: 7px 5px;
+   
+}
+.twitter:hover{
+    background-color: #00acee;
+    padding: 7px 5px;
+    border-radius: 26px;
+}
+
+/**************************************media queries***********************************/
+
+  @media only screen  
+and (min-device-width: 320px)
+and (max-device-width : 640px) {
+    .dropdown-menu-large {
+        width: 273px;
+    }
+    .input-group{
+        margin-right: 0px !important;
+        padding: 0 0px !important;
+    }
+    .form-control{
+        margin-left: 0px;
+    }
+    .home-bg{
+        background-color: #1877C3;
+      
+    }
+    .list{
+        margin-top: 35px;
+    }
+    .dna-e-commerce {
+        background-image: url(../images/blue\ background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -292px;
+    }
+    .col-mobile{
+        margin-top: 104px !important;
+    }
+    .home-bg h1 {
+        font-family: 'Josefin Sans SemiBold';
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .home-bg h2 {
+        font-family: 'Barlow Semi Condensed';
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .span{
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+        font-size: 16px;
+    }
+    .ask-us-btn{
+        background-color: white;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        border: white;
+        color: #1877C3;
+        text-transform: uppercase;
+    }
+    .market-text {
+        color: #606060;
+        font-size: 22px;
+        font-family: 'Barlow Semi Condensed';
+    }
+    .list .text {
+        color: #000000;
+        font-size: 28px;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    
+       
+    .enable-delivery {
+        /*background-image: url(../images/grey\ background.png);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    .same-text {
+        font-size: 20px;
+        color: #606060;
+        font-family: "Barlow Semi Condensed";
+    }
+    .free-text {
+        color: #1976C2;
+        font-size: 24px;
+    }
+    .bullet-text {
+        font-size: 9px;
+        color: #464646;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .enable-delivery .text {
+        color: #000000;
+        font-size: 28px;
+        font-family: " 'Josefin Sans SemiBold'";
+    }
+    .dna-text-2 {
+        color: #FFFEFE;
+        font-size: 16px;
+        font-family: "Barlow Semi Condensed";
+    }
+    .dna-text {
+        font-size: 32px;
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    .footer-text {
+        font-size: 35px;
+        color: white;
+        margin-left: 0px;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    .slanted {
+        background-color: #1877C3;
+        height: 600px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 662% 66%, 0 100%);
+        transform: rotate(
+    180deg
+    );
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .input-group{
+        margin-right: 0px !important;
+        padding: 0 0px !important;
+    }
+    .form-control{
+        margin-left: 75px;
+    }
+    .list{
+        margin-top: 100px;
+    }
+    .home-bg{
+        background-color: #1877C3;
+        
+    }
+    .span{
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+        font-size: 16px;
+    }
+    .enable-delivery {
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .dna-text-2 {
+        color: #FFFEFE;
+        font-size: 20px;
+        font-family: "Barlow Semi Condensed";
+    }
+    .dna-text {
+        font-size: 37px;
+        color: white;
+        font-family: 'Josefin Sans SemiBold';
+    }
+    .slant{
+        height: 1250px !important;
+    }
+
+    .slant-img{
+        height: 1450px !important;
+    }
+}
+.slant{
+    background-color: white;
+    position: relative;
+    text-align: center;
+   height: 800px;
+  }
+  .slant-img{
+    background-color: #f5f5f5;
+    position: absolute;
+    width: 100%;
+    height: 953px;
+    top: 0px;
+    /* left: 6px; */
+    transform: skewY(-7deg);
+}
