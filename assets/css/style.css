@@ -1,3 +1,7 @@
+@font-face{
+src: url(Josefin_Sans/static/JosefinSans-SemiBold.ttf);
+font-family: josefin-sans;
+}
 .nav-link{
     font-size: 28px;
     font-family:Arial, Helvetica, sans-serif;
@@ -46,7 +50,7 @@
     top: 15%;
 }
 .home-bg h1{
-    font-family: 'Josefin Sans SemiBold';
+    font-family: josefin-sans;
     color: white;
     font-size: 45px;
     font-weight: 600;
@@ -73,7 +77,7 @@
 }
 .span{
     color: white;
-    font-family: 'Josefin Sans SemiBold';
+    font-family: 'josefin-sans';
     font-size: 30px;
 }
 .hr{
@@ -100,7 +104,7 @@
 .list .text{
     color: #000000;
     font-size: 60px;
-    font-family: 'Josefin Sans SemiBold';
+    font-family: 'josefin-sans';
 }
 .market-text{
 color: #606060;
@@ -146,7 +150,7 @@ font-family: 'Barlow Semi Condensed';
 .enable-delivery .text{
     color: #000000;
     font-size: 60px;
-    font-family: " 'Josefin Sans SemiBold'";
+    font-family: josefin-sans;
    
 }
 .same-text{
@@ -182,7 +186,7 @@ font-family: 'Barlow Semi Condensed';
 .dna-text{
     font-size: 60px;
     color: white;
-    font-family:  'Josefin Sans SemiBold';
+    font-family:  josefin-sans;
 }
 .dna-text-2{
     color: #FFFEFE;
@@ -274,7 +278,7 @@ and (max-device-width : 640px) {
         margin-top: 104px !important;
     }
     .home-bg h1 {
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
         color: white;
         font-size: 19px;
         font-weight: 600;
@@ -287,7 +291,7 @@ and (max-device-width : 640px) {
     }
     .span{
         color: white;
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
         font-size: 16px;
     }
     .ask-us-btn{
@@ -307,7 +311,7 @@ and (max-device-width : 640px) {
     .list .text {
         color: #000000;
         font-size: 28px;
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
     }
     
        
@@ -337,7 +341,7 @@ and (max-device-width : 640px) {
     .enable-delivery .text {
         color: #000000;
         font-size: 28px;
-        font-family: " 'Josefin Sans SemiBold'";
+        font-family: josefin-sans;
     }
     .dna-text-2 {
         color: #FFFEFE;
@@ -347,22 +351,20 @@ and (max-device-width : 640px) {
     .dna-text {
         font-size: 32px;
         color: white;
-        font-family: 'Josefin Sans SemiBold';
+        font-family:josefin-sans;
     }
     .footer-text {
         font-size: 35px;
         color: white;
         margin-left: 0px;
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
     }
     .slanted {
         background-color: #1877C3;
         height: 600px;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 662% 66%, 0 100%);
-        transform: rotate(
-    180deg
-    );
+        transform: rotate(180deg);
     }
 }
 @media only screen 
@@ -384,7 +386,7 @@ and (max-device-width : 1024px) {
     }
     .span{
         color: white;
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
         font-size: 16px;
     }
     .enable-delivery {
@@ -401,7 +403,7 @@ and (max-device-width : 1024px) {
     .dna-text {
         font-size: 37px;
         color: white;
-        font-family: 'Josefin Sans SemiBold';
+        font-family: josefin-sans;
     }
     .slant{
         height: 1250px !important;
