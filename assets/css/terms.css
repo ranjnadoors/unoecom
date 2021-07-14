@@ -1,3 +1,11 @@
+@font-face{
+    src: url(Josefin_Sans/static/JosefinSans-SemiBold.ttf);
+    font-family: josefin-sans;
+    }
+    @font-face{
+        src: url(Barlow/Barlow-Light.ttf);
+        font-family: 'Barlow Semi Condensed';
+        }
 .nav-link{
     font-size: 28px;
     font-family:Arial, Helvetica, sans-serif;
@@ -39,7 +47,7 @@
 }
 .ml9 {
     color:#1669ae;
-	font-family: "Raleway",sans-serif;
+	font-family: 'Barlow Semi Condensed';
 	text-align:center;
 	font-size:45px;
 	font-weight:bold;
@@ -73,7 +81,7 @@
 .content h2 {
     padding: 30px 40px 0px 40px;
 	color:#1669ae;
-	font-family: "Raleway",sans-serif;
+	font-family: josefin-sans;
 	letter-spacing:5px;
 	font-size:30px;
 	font-weight:bold;
@@ -82,6 +90,7 @@
 .content p {
     color: #262626;
    /* font-family: "Raleway",sans-serif;*/
+   font-family: 'Barlow Semi Condensed';
     letter-spacing: 0px;
     font-size: 20px;
     text-align: justify;
@@ -94,8 +103,9 @@
 }
 .content h3{
     padding: 30px 12px 0px 40px;
-color:#1669ae;
-display:inline;
+    color:#1669ae;
+    display:inline;
+    font-family: josefin-sans;
 }
 .contentimg{
 	margin-top:30px;
@@ -107,7 +117,7 @@ display:inline;
 .contentimg h2 {
     padding: 5px 40px 0px 40px;
 	color:#1669ae;
-	font-family: "Raleway",sans-serif;
+	font-family: 'Barlow Semi Condensed';
 	letter-spacing:5px;
 	font-size:30px;
 	font-weight:bold;
@@ -115,7 +125,7 @@ display:inline;
 
 .contentimg p {
     color: #262626;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Barlow Semi Condensed';
     letter-spacing: 0px;
     font-size: 20px;
     text-align: justify;
@@ -139,7 +149,7 @@ display:inline;
 .contentul p{
     display:inline;
     color: #262626;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Barlow Semi Condensed';
     letter-spacing: 0px;
     font-size: 20px;
     text-align: justify;
@@ -233,7 +243,7 @@ and (max-device-width : 640px) {
 .content h2 {
     padding: 30px 40px 30px 40px;
 	color:#1669ae;
-	font-family: "Raleway",sans-serif;
+	font-family: 'Barlow Semi Condensed';
 	letter-spacing:0px;
 	font-size:30px;
 	font-weight:bold;
@@ -249,6 +259,7 @@ and (max-device-width : 640px) {
 .content p {
     color: #262626;
     /*font-family: "Raleway",sans-serif;*/
+    font-family: 'Barlow Semi Condensed';
     letter-spacing: 0px;
     font-size: 16px;
     text-align: justify;
@@ -258,7 +269,7 @@ and (max-device-width : 640px) {
 
 .heading {
     color:#1669ae;
-	font-family: "Raleway",sans-serif;
+	font-family: 'Barlow Semi Condensed';
 	text-align:center;
 	font-size:30px;
 	font-weight:bold;
