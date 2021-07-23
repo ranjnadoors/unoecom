@@ -1,7 +1,7 @@
-@font-face{
-    src: url(Josefin_Sans/static/JosefinSans-SemiBold.ttf);
-    font-family: josefin-sans;
-    }
+    @font-face{
+        src: url(Josefin_Sans/static/JosefinSans-SemiBold.ttf);
+        font-family: josefin-sans;
+        }
     @font-face{
         src: url(Barlow/Barlow-Light.ttf);
         font-family: 'Barlow Semi Condensed';
